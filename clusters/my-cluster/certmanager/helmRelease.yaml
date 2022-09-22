@@ -13,9 +13,9 @@ spec:
         kind: HelmRepository
         name: jetstack
       interval: 1m
-      values:
-        installCRDs: true
-        http_proxy: "http://192.170.240.154:32712"
-        https_proxy: "http://192.170.240.154:32712"
-        NO_PROXY: "10.233.0.0/18"
+  values:
+    installCRDs: true
+    http_proxy: "http://192.170.240.154:32712"
+    https_proxy: "http://192.170.240.154:32712"
+    NO_PROXY: "10.233.0.0/18"
 
