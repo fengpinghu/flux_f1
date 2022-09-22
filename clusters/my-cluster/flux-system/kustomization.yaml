@@ -18,7 +18,7 @@ patches:
                   - name: "HTTPS_PROXY"
                     value: "http://192.170.240.154:32712"
                   - name: "NO_PROXY"
-                    value: ".cluster.local.,.cluster.local,.svc"      
+                    value: ".cluster.local.,.cluster.local,.svc,10.233.0.0/18"      
     target:
       kind: Deployment
       labelSelector: app.kubernetes.io/part-of=flux
